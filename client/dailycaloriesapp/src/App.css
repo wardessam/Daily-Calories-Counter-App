@@ -1,0 +1,210 @@
+.container {
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  
+}
+h2{
+  text-align: center;
+}
+.Form h3{
+  text-align: center;
+  color: #808080;
+  margin-bottom: 10%;
+}
+
+.Form{
+  border: 3px solid #f1f1f1;
+  align-items: stretch;
+  text-align: center;
+  margin: auto;
+  height:95%;
+  width:50%;
+
+}
+.searchForm{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  height:95%;
+  width:50%;
+}
+
+.Form input[type=text], input[type=password] {
+  width: 90%;
+  padding: 16px 32px;
+  margin: 16px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.Form button {
+  background-color: #808080;
+  color: white;
+  padding: 14px 20px;
+  margin: 32px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.Form button:hover {
+  opacity: 0.8;
+}
+.mainlabel{
+  color: #4682B4;
+  cursor: pointer;
+}
+.passmsg{
+  font-size: 10px;
+  color: #808080;
+}
+
+.searchForm input[type=text]{
+  font-size: 17px;
+  border: 1px solid #ccc;
+  padding: 16px 32px;
+  margin: 16px 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-sizing: border-box;
+  float: left;
+  width: 80%;
+  background: #fff;
+}
+.search{
+  float: left;
+  width: 20%;
+  padding: 16px 32px;
+  margin: 16px 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #808080;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-left: none;
+  cursor: pointer;
+ 
+}
+.homeContainer{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+.calories{
+  flex: 1;
+  width: 40%;
+  padding: 16px 32px;
+}
+.totalCalories{
+  width: 400px;
+  height: 250px;
+  padding: 8px 20px;
+  margin: 32px 0;
+  align-items: center;
+  font-size: 5vh;
+  border: 1px solid #ccc;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #808080;
+}
+.remainingCalories{
+  width: 400px;
+  height: 250px;
+  padding: 8px 20px;
+  margin: 32px 0;
+  align-items: center;
+  font-size: 5vh;
+  border: 1px solid #ccc;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #808080;
+  
+}
+.foodList{
+  width: 60%;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  column-count: 3;
+  padding: 16px 32px;
+}
+
+.title{
+  text-align: left;
+}
+.Foodata{
+  padding-left: 0;
+}
+.foodItem{
+  width: 250px;
+  height: 250px;
+  padding: 8px 20px;
+  margin: 32px;
+  flex: 0 0 33.333333%;
+  align-items: center;
+  font-size: 2vh;
+  border: 1px solid #ccc;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #808080;
+}
+.afterPhoto{
+  display: flex;
+
+}
+.foodImg{
+  width:200px;
+  height: 150px;
+  padding: 8px;
+}
+.itemData{
+  flex:1;
+  margin-right: 20px;
+  font-size: medium;
+  margin-top: 10px;
+}
+.filterForm input[type="text"]{
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 16px 0;
+  
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-sizing: border-box;
+  background: #fff;
+}
+.filterForm button{
+  padding: 8px;
+ 
+  margin: 16px 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #808080;
+  color: white;
+  border: 1px solid #ccc;
+  border-left: none;
+  cursor: pointer;
+}
+select{
+  padding:8px;
+  border:0px;
+   outline:0px;
+}
+
+
+/*Small Screen Changes*/
+@media screen and (max-width: 500px) {
+ form{
+   width: 100%;
+ }
+ .remainingCalories .totalCalories{
+  width: 200px;
+  height: 150px;
+  font-size: small;
+ }
+ 
+}
+
